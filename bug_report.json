@@ -1,1 +1,15 @@
-
+{
+    "Bug report": "Chat - the creator of a group conversation cannot rename it",
+    "summary": "The bug is produced only for the creator of a group conversation. All other participants are able to rename the conversation",
+    "Project": "www.test.website.com",
+    "Component": "None",
+    "Version": 2.20,
+    "Severity": "Minor",
+    "Priority": "Medium",
+    "Steps to reproduce”: [ "Open www.test.website.com", "Sign in: login - test3 / password - testtest",
+                             "Open a chat dialog with 'Test1 Testington'", "Click on the button 'Settings'=>add user",
+                             "Add any user to a group conversation => click 'Done'", "Click again on 'Settings' to rename the group conversation"
+    ],
+    "Actual result": "The button 'Rename conversation' is disabled for the creator of the group conversation",
+    "Expected result": "All participants should be able to rename a group conversation"
+}
