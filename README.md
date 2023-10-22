@@ -35,15 +35,15 @@
     
  16. Создать файл preferences.json: 
 
-     `touch preference.json`
+     `touch preferences.json`
     
  18. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года,       сторона которую хотели бы посетить) в   формате JSON: 
 
-     `cat >> preference.json`
+     `vim preferences.json`
     
  19. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON: 
 
-     `cat > skils.json`
+     `vim skills.json`
     
  20. Отправить сразу 2 файла на внешний репозиторий: 
 
