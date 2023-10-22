@@ -2,7 +2,7 @@ let person = {"student":[
 	    "first name":"Vika",
             "last name":"Dziadovich",
             "patronymic":"Viktorovna",
-            "age":29,
+            "age":30,
             "pets":0,
-            "expected salary": 500 "dollars" ]
+            "expected salary": 1000 "dollars" ]
 }
